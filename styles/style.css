@@ -1,0 +1,487 @@
+/**********************************************basic**********************************************/
+body {
+	font-family: Source-Sans-Pro-Regular, Arial, sans-serif;
+}
+body h2{
+	margin: 0;
+}
+/**********************************************Fonts**********************************************/
+@font-face {
+	font-family: PFDin-Text-Pro-Medium;
+	src: url(../fonts/PFDin-Text-Pro-Medium.ttf);
+}
+@font-face {
+	font-family: Source-Sans-Pro-Regular;
+	src: url(../fonts/SourceSansPro-Regular.ttf);
+}
+@font-face {
+	font-family: Lora-Regular;
+	src: url(../fonts/Lora-Regular.ttf);
+}
+@font-face {
+	font-family: Lora-Bold;
+	src: url(../fonts/Lora-Bold.ttf);
+}
+/**********************************************header**********************************************/
+header .logotype {
+	font-size: 38px;
+	font-family: PFDin-Text-Pro-Medium;
+	color: #343a46;
+}
+header .contacts {
+	margin-top: 20px;
+	position: relative;
+}
+header .contact_icon {
+	display: inline-block;
+	position: relative;
+	height: 70px;
+	left: 110px;
+}
+address {
+	font-size: 18px;
+	font-family: Source-Sans-Pro-Regular;
+	color: #343a46;
+	display: inline-block;
+	float: right;
+}
+/**********************************************navigation**********************************************/
+#navigation {
+	background-color: #343a46;
+	padding: 18px 0;
+}
+#navigation nav {
+	font-size: 20px;
+	font-family: Source-Sans-Pro-Regular;
+	color: #fff;
+}
+#navigation nav li:not(:first-child):before {
+	content: "";
+	background: url(../images/separator-nav.png);
+	background-size: contain;
+	width: 1px;
+	height: 27px;
+	display: inline-block;
+	margin-right: 20px;
+	vertical-align: bottom;
+}
+#navigation nav li a {
+	color: #fff;
+}
+#navigation nav li a:hover {
+	text-decoration: none;
+}
+/**********************************************main_image**********************************************/
+#main_image {
+	width: 100%;
+	height: 600px;
+	background: url(../images/main-image.png) center center no-repeat;
+	background-size: cover;
+}
+/**********************************************about**********************************************/
+#about {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+#about h2{
+	margin: 0;
+	margin-bottom: 15px;
+	font-family: Lora-Regular;
+	font-size: 36px;
+}
+#about p {
+	font-family: Source-Sans-Pro-Regular;
+	font-size: 22px;
+	margin-bottom: 0;
+	line-height: 1.8;
+}
+#about img {
+	width: 300px;
+	border: 2px solid black;
+}
+/**********************************************directors**********************************************/
+#directors {
+	background-color: #343a46;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+#directors h2{
+	font-family: Lora-Regular;
+	font-size: 42px;
+	color: #fff;
+	margin-bottom: 40px;
+}
+#directors .directors_photos {
+	
+}
+#directors p {
+	font-family: Lora-Regular;
+	font-size: 22px;
+	color: #fff;
+	margin-top: 20px;
+}
+/**********************************************goals**********************************************/
+#goals {
+	padding-top: 40px;
+	padding-bottom: 120px;
+}
+#goals h2{
+	font-family: Lora-Regular;
+	font-size: 42px;
+	margin-bottom: 40px;
+}
+#goals h3 {
+	font-family: Lora-Regular;
+	margin-top: 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+#goals p {
+	font-family: Source-Sans-Pro-Regular;
+	font-size: 16px;
+	text-align: left;
+}
+#goals .goal_text_1 {
+	position: absolute;
+	top: 0;
+	padding-left: 100px; 
+}
+#goals .goal_text_2 {
+	position: absolute;
+	top: 200px;
+	padding-left: 100px; 
+}
+#goals .goal_2 {
+	padding-top: 120px;
+}
+#goals .goal_text_3 {
+	position: absolute;
+	top: 0;
+	padding-left: 100px; 
+}
+#goals .goal_text_4 {
+	position: absolute;
+	top: 200px;
+	padding-left: 100px; 
+}
+#goals .goal_4 {
+	padding-top: 120px;
+}
+/**********************************************our_team**********************************************/
+#our_team {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #343a46;
+}
+#our_team h2{
+	font-family: Lora-Regular;
+	font-size: 42px;
+	margin-bottom: 40px;
+	color: #fff;
+}
+#our_team .first_team_row img {
+	padding-bottom: 65px;
+}
+#our_team .half_col_img img{
+	margin-left: 40px;
+}
+/**********************************************partners**********************************************/
+#partners {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+#partners h2{
+	font-family: Lora-Regular;
+	font-size: 42px;
+	margin-bottom: 40px;
+}
+/**********************************************reviews**********************************************/
+#reviews {
+
+}
+#reviews h2{
+	font-family: Lora-Regular;
+	font-size: 42px;
+	margin-bottom: 40px;
+}
+#reviews .review_card {
+	background-color: #f8f8f8;
+	height: 400px;
+}
+#reviews img {
+	width: 201px;
+	height: 201px;
+	border-radius: 50%;
+}
+#reviews .review_card h3{
+	font-family: Source-Sans-Pro-Regular;
+	text-align: center;
+	font-size: 22px;
+}
+#reviews .review_card p{
+	font-family: Source-Sans-Pro-Regular;
+	text-align: center;
+	font-size: 14px;
+}
+/**********************************************map**********************************************/
+#map {
+	padding-top: 40px;
+}
+#map h2{
+	font-family: Lora-Regular;
+	font-size: 42px;
+	margin-bottom: 40px;
+}
+/**********************************************footer**********************************************/
+footer {
+	background-color: #343a46;
+	color: #fff;
+	font-family: Source-Sans-Pro-Regular;
+}
+footer .p_vertical_align {
+	margin-top: 55px;
+}
+footer p .developer{
+	display: inline;
+	vertical-align: center;
+}
+footer .developer a {
+	color: #fff;
+	display: inline;
+	text-decoration: underline;
+}
+footer .icons {
+	color: #fff;
+	display: inline;
+	text-decoration: underline;
+}
+footer a:hover{
+	color: #fff;
+}
+footer a:focus {
+	color: #fff;
+}
+footer a:active {
+	color: #fff;
+}
+footer a:visited {
+	color: #fff;
+}
+/**********************************************Media**********************************************/
+@media (min-width:993px) and (max-width:1200px) {
+	header .contacts img {
+		left: 300px;
+	}
+	#goals .second_cards_goals {
+		margin-top: 50px;
+	}
+	#goals h3 {
+		text-align: left;
+	}
+	#goals .goal_text_2 {
+		top: 130px;
+	}
+	#goals .goal_2 {
+		padding-top: 60px;
+	}
+	#goals .goal_text_4 {
+		top: 130px;
+	}
+	#goals .goal_4 {
+		padding-top: 60px;
+	}
+	#our_team .half_col_img img{
+		margin-left: 0;
+	}
+}
+@media (min-width:769px) and (max-width:992px) {
+	#navigation nav {
+		font-size: 17px;
+	}
+	#navigation nav li:not(:first-child):before {
+		margin-right: 8px;
+	}
+	#goals .second_cards_goals {
+		margin-top: 50px;
+	}
+	#goals h3 {
+		text-align: left;
+	}
+	#goals .goal_text_2 {
+		top: 130px;
+	}
+	#goals .goal_2 {
+		padding-top: 60px;
+	}
+	#goals .goal_text_4 {
+		top: 130px;
+	}
+	#goals .goal_4 {
+		padding-top: 60px;
+	}
+	#our_team {
+		display: none; 
+	}
+	#our_team_sm {
+		padding-top: 40px;
+		padding-bottom: 40px;
+		background-color: #343a46;
+	}
+	#our_team_sm h2{
+		font-family: Lora-Regular;
+		font-size: 42px;
+		margin-bottom: 40px;
+		color: #fff;
+	}
+	#our_team_sm .first_team_row img {
+		padding-bottom: 65px;
+	}
+	#our_team_sm .row:not(:last-child) {
+		padding-bottom: 50px;
+	}
+	#reviews .review_card:last-child {
+		margin-bottom: 50px;
+	}
+	#map {
+		padding-top: 0;
+	}
+	footer .p_vertical_align {
+		margin-top: 33px;
+	}
+}
+@media (min-width:481px) and (max-width:768px) {
+	header .logotype {
+		font-size: 36px;
+	}
+	header .contacts img {
+		display: none;
+	}
+	#dlabel {
+		background-color: #fff;
+		border: 1px #24a3d8 solid;
+		padding: 10px 18px;
+		font-size: 15px;
+		float: left;
+		color: #3e4147;
+		border-radius: 15%;
+	}
+	#dlabel:hover {
+		background-color: #24a3d8;
+		color: #fff;
+	}
+	.dropdown {
+		position: relative;
+		top: 47px;
+		right: 280px;
+	}
+	#directors img{
+		width: 100%;
+	}
+	#goals .second_cards_goals {
+		margin-top: 50px;
+	}
+	#goals h3 {
+		text-align: left;
+	}
+	#goals .goal_text_2 {
+		top: 130px;
+	}
+	#goals .goal_2 {
+		padding-top: 60px;
+	}
+	#goals .goal_text_4 {
+		top: 130px;
+	}
+	#goals .goal_4 {
+		padding-top: 60px;
+	}
+	#our_team .row {
+		text-align: center;
+	}
+	#our_team img {
+		width: 80%;
+	}	
+	#our_team .half_col_img img {
+		margin-left: 0;
+	}
+	#our_team .second_team_row img {
+		padding-bottom: 65px;
+	}
+	footer .p_vertical_align {
+		margin-top: 33px;
+	}
+}
+@media (min-width:0px) and (max-width:480px) {
+	header .logotype {
+		font-size: 36px;
+	}
+	header .contacts img {
+		display: none;
+	}
+	#dlabel {
+		background-color: #fff;
+		border: 1px #24a3d8 solid;
+		padding: 10px 18px;
+		font-size: 15px;
+		float: left;
+		color: #3e4147;
+		border-radius: 15%;
+	}
+	#dlabel:hover {
+		background-color: #24a3d8;
+		color: #fff;
+	}
+	.dropdown {
+		position: relative;
+		top: 47px;
+		right: 235px;
+	}
+	#directors img{
+		width: 100%;
+	}
+	#goals .second_cards_goals {
+		margin-top: 50px;
+	}
+	#goals h3 {
+		text-align: left;
+	}
+	#goals .goal_text_2 {
+		top: 130px;
+	}
+	#goals .goal_2 {
+		padding-top: 60px;
+	}
+	#goals .goal_text_4 {
+		top: 170px;
+	}
+	#goals .goal_4 {
+		padding-top: 90px;
+	}
+	#our_team .row {
+		text-align: center;
+	}	
+	#our_team .half_col_img img {
+		margin-left: 0;
+	}
+	#our_team .second_team_row img {
+		padding-bottom: 65px;
+	}
+	footer .developer{
+		font-size: 12px;
+	}
+	footer .p_vertical_align {
+		margin-top: 33px;
+	}
+}
+/**********************************************Media-fix**********************************************/
+@media (width:1200px) {
+	body header .contacts img {
+		left: 110px;
+	}
+}
+@media (width:992px) {
+	body header .contacts img {
+		left: 300px;
+	}
+}
