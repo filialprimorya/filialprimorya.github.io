@@ -196,15 +196,6 @@ address {
 	font-size: 42px;
 	margin-bottom: 40px;
 }
-#partners .item img {
-	height: 185px;
-}
-#partners .carousel{
-	margin-top: 20px;
-}
-#partners .carousel-indicators li {
-	display: none;
-}
 /**********************************************reviews**********************************************/
 #reviews {
 
